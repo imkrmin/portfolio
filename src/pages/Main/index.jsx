@@ -3,10 +3,10 @@ import styled from "styled-components";
 
 const MainLayout = styled(motion.div)`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #000000;
-  width: 100vw;
   height: 100vh;
 `;
 
