@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import { Menu } from "./Menu";
-import { MenuToggle } from "./Menutoggle";
+import { Menu } from "../Menu";
+import { MenuToggle } from "../Menu/Menutoggle";
 import { useMenuAnimation } from "../../Hook/useMenuAnimation";
 
 const GnbLayout = styled(motion.div)`
