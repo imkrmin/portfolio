@@ -40,7 +40,7 @@ export function Menu() {
       <MenuLayout>
         <MenuStyle>Portfolio</MenuStyle>
         <MenuStyle>About Me</MenuStyle>
-        <MenuStyle>Contact</MenuStyle>
+        <MenuStyle>Guest Book</MenuStyle>
       </MenuLayout>
     </MenuWrapper>
   );
