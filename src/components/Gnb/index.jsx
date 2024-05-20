@@ -1,12 +1,16 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import { Menu } from "./Menu";
-import { MenuToggle } from "./Menutoggle";
+import { Menu } from "../Menu";
+import { MenuToggle } from "../Menu/Menutoggle";
 import { useMenuAnimation } from "../../Hook/useMenuAnimation";
 
 const GnbLayout = styled(motion.div)`
   display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 20px 24px;
   justify-content: space-between;
   align-items: center;
@@ -33,7 +37,7 @@ export default function Gnb() {
   return (
     <GnbLayout
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, scale: 1 }}
+      animate={{ opacity: 2, scale: 1 }}
       transition={{ duration: 0.8 }}
     >
       <Logo>Im Joo Min</Logo>

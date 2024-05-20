@@ -19,7 +19,7 @@ export default function MainPage() {
   return (
     <MainLayout
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1, scale: 1 }}
+      animate={{ opacity: 2, scale: 1 }}
       transition={{ duration: 0.8 }}
     >
       <Title>안녕</Title>
